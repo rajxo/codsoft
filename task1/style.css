@@ -1,0 +1,73 @@
+img{
+    width: 200px;
+    height: 200px;
+    margin: 50px;
+    border: 5px solid pink;
+    
+}
+div{
+    background-color: blueviolet;
+    text-align: center;
+}
+#navi{
+    text-align: center;
+    border:1px solid rgb(51, 4, 95);
+}
+a{
+
+    text-decoration: none;
+    color:antiquewhite;
+    margin:20px;
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+}
+#center{
+    margin-left: auto;
+    margin-right: auto;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+.left , .right{
+    flex-basis: 50%;
+    margin-bottom: 100px;
+    background-color: white;
+    
+}
+
+.left h2{
+    font-size: 100px;
+   
+    
+}
+.left p{
+    color:white;
+}
+.left{
+    text-align: center;
+    background-color: rgb(169, 113, 222);
+    margin-left:10px;
+}
+.right{
+    max-width: 450px;
+}
+.right img{
+    width: 50%;
+
+}
+.fa{
+    width:50px;
+    height: 50px;
+}
+.fa fa-instagram{
+    width: 50px;
+    height: 50px;
+}
+footer{
+    color:rgb(83, 38, 125);
+}
